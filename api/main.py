@@ -1,3 +1,14 @@
+@app.get("/forecast")
+def get_forecast(city: str):
+    return {"detail": "Forecast data coming soon for " + city}
+
+@app.get("/news")
+def get_news():
+    return {"articles": []}
+
+@app.get("/exchange-rate")
+def get_exchange_rate(base: str = "NGN"):
+    return {"rates": {"USD": 0.00065}, "base": base}
 import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
