@@ -1,4 +1,6 @@
-import os  # Import the os module to access environment variables and handle file paths
+@app.get("/")
+def home():
+    return {"message": "SkyCast Pro API is active! Use /weather/{city} to get data."}import os  # Import the os module to access environment variables and handle file paths
 import requests  # Import the requests library to make HTTP requests to external APIs
 from fastapi import FastAPI, HTTPException, Depends, Request  # Import core components and Request for session handling
 from fastapi.responses import RedirectResponse  # Import RedirectResponse for browser redirection after auth
