@@ -1,4 +1,57 @@
+import os
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from dotenv import load_dotenv
+
+# 1. Load Environment Variables
+load_dotenv()
+
+# 2. Initialize the FastAPI App
+app = FastAPI()
+
+# 3. Add CORS Middleware (So your frontend can talk to this API)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# 4. The "Home" Route (Fixes the 'Not Found' error)
 @app.get("/")
+def home():
+    return {"message": "SkyCast Pro API is active! Use /weather/{city} to get data."}
+
+# 5. Your Weather Route
+@app.get("/weather/{city}")
+def get_weather(city: str):
+    # Your existing weather logic goes here...
+    return {"city": city, "status": "Search logic active"}
+load_dotenv()
+
+app = FastAPI()  # This must be created first!
+
+@app.get("/")
+def home():
+    return {"message": "SkyCast Pro API is active! Use /weather/{city} to get data."}
+
+# Now your CORS middleware and other routes follow...
+app.add_middleware(
+    CORSMiddleware,
+    # ...
+import os
+import requests
+from fastapi import FastAPI, HTTPException, Depends, Request
+# ... (keep all your other from/import lines)
+from fastapi import FastAPI
+# ... other imports ...
+
+app = FastAPI()  # <--- THIS MUST BE ABOVE THE ROUTES
+
+@app.get("/")
+def home():
+    return {"message": "SkyCast Pro API is active!"}@app.get("/")
 def home():
     return {"message": "SkyCast Pro API is active! Use /weather/{city} to get data."}import os  # Import the os module to access environment variables and handle file paths
 import requests  # Import the requests library to make HTTP requests to external APIs
