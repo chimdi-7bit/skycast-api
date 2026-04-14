@@ -1,0 +1,64 @@
+2026-04-08 21:06:29.756 [info] I0408 21:06:29.748923  2102 server.go:1221] Starting language server process with pid 2102
+2026-04-08 21:06:29.788 [info] I0408 21:06:29.751644  2102 server.go:295] Setting GOMAXPROCS to 2
+2026-04-08 21:06:29.795 [info] I0408 21:06:29.761333  2102 server.go:441] Language server will attempt to listen on host 127.0.0.1
+2026-04-08 21:06:29.800 [info] I0408 21:06:29.762651  2102 server.go:455] Language server listening on random port at 35935 for HTTPS (gRPC)
+2026-04-08 21:06:29.800 [info] I0408 21:06:29.767633  2102 server.go:462] Language server listening on random port at 46249 for HTTP
+2026-04-08 21:06:30.975 [info] I0408 21:06:30.964779  2102 server.go:434] Created extension server client at port 39649
+2026-04-08 21:06:31.391 [info] I0408 21:06:31.383925  2102 cascade_manager.go:772] Reactive state is disabled
+2026-04-08 21:06:31.740 [info] (Antigravity) 2026-04-08 21:06:31.720 [INFO]: Language server started
+2026-04-08 21:06:32.208 [info] I0408 21:06:31.982589  2102 server.go:1679] initialized server successfully in 2.230906561s
+2026-04-08 21:06:32.543 [info] E0408 21:06:32.454268  2102 server.go:545] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+2026-04-08 21:06:32.544 [info] W0408 21:06:32.454434  2102 client.go:167] failed to set auth token
+2026-04-08 21:06:32.636 [info] W0408 21:06:32.618264  2102 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-04-08 21:06:32.934 [info] (Antigravity) 2026-04-08 21:06:32.933 [INFO]: LS lspClient started successfully
+2026-04-08 21:09:47.322 [info] I0408 21:09:47.306924  2102 server.go:1856] Got signal terminated, shutting down
+2026-04-08 21:09:47.323 [info] I0408 21:09:47.307110  2102 server.go:1882] Language server shutting down
+2026-04-08 21:09:47.479 [info] (Antigravity) 2026-04-08 21:09:47.477 [INFO]: Language server exited with code 0
+2026-04-08 21:09:49.556 [info] I0408 21:09:49.551156  2344 server.go:1221] Starting language server process with pid 2344
+2026-04-08 21:09:49.556 [info] I0408 21:09:49.555808  2344 server.go:295] Setting GOMAXPROCS to 2
+2026-04-08 21:09:49.569 [info] I0408 21:09:49.562586  2344 server.go:441] Language server will attempt to listen on host 127.0.0.1
+2026-04-08 21:09:49.585 [info] I0408 21:09:49.572519  2344 server.go:455] Language server listening on fixed port at 35935 for HTTPS (gRPC)
+2026-04-08 21:09:49.590 [info] I0408 21:09:49.572719  2344 server.go:462] Language server listening on fixed port at 33765 for HTTP
+2026-04-08 21:09:51.457 [info] I0408 21:09:51.453269  2344 server.go:434] Created extension server client at port 39649
+2026-04-08 21:09:51.672 [info] I0408 21:09:51.652890  2344 cascade_manager.go:772] Reactive state is disabled
+2026-04-08 21:09:52.070 [info] (Antigravity) 2026-04-08 21:09:52.053 [INFO]: Language server started
+2026-04-08 21:09:52.152 [info] I0408 21:09:52.129567  2344 server.go:1679] initialized server successfully in 2.573564026s
+2026-04-08 21:09:52.277 [info] E0408 21:09:52.276959  2344 server.go:545] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+2026-04-08 21:09:52.278 [info] W0408 21:09:52.277601  2344 client.go:167] failed to set auth token
+2026-04-08 21:09:52.640 [info] W0408 21:09:52.534188  2344 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-04-08 21:09:52.880 [info] (Antigravity) 2026-04-08 21:09:52.880 [INFO]: LS lspClient started successfully
+2026-04-08 21:09:54.214 [info] I0408 21:09:54.174887  2344 server.go:1856] Got signal terminated, shutting down
+2026-04-08 21:09:54.214 [info] I0408 21:09:54.175028  2344 server.go:1882] Language server shutting down
+2026-04-08 21:09:54.435 [info] (Antigravity) 2026-04-08 21:09:54.434 [INFO]: Language server exited with code 0
+2026-04-08 21:09:57.128 [info] I0408 21:09:57.127435  2361 server.go:1221] Starting language server process with pid 2361
+2026-04-08 21:09:57.133 [info] I0408 21:09:57.130964  2361 server.go:295] Setting GOMAXPROCS to 2
+2026-04-08 21:09:57.166 [info] I0408 21:09:57.165540  2361 server.go:441] Language server will attempt to listen on host 127.0.0.1
+2026-04-08 21:09:57.201 [info] I0408 21:09:57.182933  2361 server.go:455] Language server listening on fixed port at 35935 for HTTPS (gRPC)
+2026-04-08 21:09:57.201 [info] I0408 21:09:57.183613  2361 server.go:462] Language server listening on fixed port at 38641 for HTTP
+2026-04-08 21:09:58.577 [info] I0408 21:09:58.576228  2361 server.go:434] Created extension server client at port 39649
+2026-04-08 21:09:58.894 [info] I0408 21:09:58.894013  2361 cascade_manager.go:772] Reactive state is disabled
+2026-04-08 21:09:59.248 [info] (Antigravity) 2026-04-08 21:09:59.246 [INFO]: Language server started
+2026-04-08 21:09:59.569 [info] I0408 21:09:59.448020  2361 server.go:1679] initialized server successfully in 2.317009098s
+2026-04-08 21:10:00.361 [info] (Antigravity) 2026-04-08 21:10:00.361 [INFO]: LS lspClient started successfully
+2026-04-08 21:10:02.521 [info] I0408 21:10:02.519704  2361 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcebe2c910c1358a
+2026-04-08 21:10:03.749 [info] I0408 21:10:03.746928  2361 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1f10f5d93399b77
+2026-04-08 21:58:33.998 [info] W0408 21:58:33.990436  2361 log_context.go:118] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:60421->100.115.92.193:53: i/o timeout
+2026-04-08 21:58:34.012 [info] W0408 21:58:33.990673  2361 log_context.go:118] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:60421->100.115.92.193:53: i/o timeout
+2026-04-08 21:58:34.012 [info] W0408 21:58:33.990751  2361 log_context.go:118] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:60421->100.115.92.193:53: i/o timeout
+2026-04-08 21:58:34.012 [info] W0408 21:58:33.990815  2361 log_context.go:118] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:60421->100.115.92.193:53: i/o timeout
+2026-04-08 21:58:34.013 [info] W0408 21:58:33.990844  2361 log_context.go:118] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:60421->100.115.92.193:53: i/o timeout
+2026-04-08 21:58:34.013 [info] W0408 21:58:33.991219  2361 log_context.go:118] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:60421->100.115.92.193:53: i/o timeout
+2026-04-08 21:58:34.013 [info] W0408 21:58:33.991307  2361 log_context.go:118] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:60421->100.115.92.193:53: i/o timeout
+2026-04-08 21:58:34.014 [info] W0408 21:58:34.009107  2361 log_context.go:118] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:34094->100.115.92.193:53: i/o timeout
+2026-04-08 21:58:34.014 [info] W0408 21:58:34.009204  2361 log_context.go:118] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:34094->100.115.92.193:53: i/o timeout
+2026-04-08 21:58:38.726 [info] ERROR: logging before google.Init: E0408 21:58:38.721846      34 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:55201->100.115.92.193:53: i/o timeout]
+2026-04-08 21:58:38.727 [info] E0408 21:58:38.723412  2361 client.go:55] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:55201->100.115.92.193:53: i/o timeout
+2026-04-08 21:58:53.727 [info] E0408 21:58:53.726320  2361 client.go:55] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:60964->100.115.92.193:53: i/o timeout
+2026-04-08 21:58:53.728 [info] ERROR: logging before google.Init: E0408 21:58:53.727635      34 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:60964->100.115.92.193:53: i/o timeout]
+2026-04-08 21:59:08.736 [info] E0408 21:59:08.735395  2361 client.go:55] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:42611->100.115.92.193:53: i/o timeout
+2026-04-08 21:59:08.741 [info] ERROR: logging before google.Init: E0408 21:59:08.736734      34 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:42611->100.115.92.193:53: i/o timeout]
+2026-04-08 23:13:51.060 [info] ERROR: logging before google.Init: E0408 23:13:51.059773      34 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:43089->100.115.92.193:53: i/o timeout]
+2026-04-08 23:13:51.060 [info] E0408 23:13:51.060082  2361 client.go:55] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:43089->100.115.92.193:53: i/o timeout
+2026-04-08 23:14:06.099 [info] ERROR: logging before google.Init: E0408 23:14:06.093244      34 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:34989->100.115.92.193:53: i/o timeout]
+2026-04-08 23:14:06.099 [info] E0408 23:14:06.093411  2361 client.go:55] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com on 100.115.92.193:53: read udp 100.115.92.197:34989->100.115.92.193:53: i/o timeout
+2026-04-08 23:14:11.728 [info] E0408 23:14:11.726417  2361 client.go:55] Clearcut responded with HTTP code401

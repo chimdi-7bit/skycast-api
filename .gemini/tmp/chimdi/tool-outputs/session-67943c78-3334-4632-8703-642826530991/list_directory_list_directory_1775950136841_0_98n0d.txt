@@ -1,0 +1,3 @@
+{
+  "output": "Directory listing for /home/chimdi/dashboard/src:\nApp.css (7789 bytes)\nApp.tsx (26904 bytes)\nindex.css (1485 bytes)\nmain.tsx (706 bytes)"
+}

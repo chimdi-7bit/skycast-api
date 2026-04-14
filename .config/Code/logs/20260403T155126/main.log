@@ -1,0 +1,23 @@
+2026-04-03 15:51:31.199 [info] update#setState idle
+2026-04-03 15:52:01.228 [info] update#setState checking for updates
+2026-04-03 15:52:01.585 [info] update#setState idle
+2026-04-03 16:52:00.109 [info] update#setState checking for updates
+2026-04-03 16:52:00.853 [info] update#setState idle
+2026-04-03 21:24:32.977 [info] update#setState checking for updates
+2026-04-03 21:24:37.104 [error] #4: https://update.code.visualstudio.com/api/update/linux-x64/stable/e7fb5e96c0730b9deb70b33781f98e2f35975036?bg=true&u=none - error undefined net::ERR_NETWORK_CHANGED
+2026-04-03 21:24:37.132 [error] Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:130480)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-04-03 21:24:37.166 [info] update#setState idle
+2026-04-04 12:43:13.228 [info] update#setState checking for updates
+2026-04-04 12:43:39.724 [error] #5: https://update.code.visualstudio.com/api/update/linux-x64/stable/e7fb5e96c0730b9deb70b33781f98e2f35975036?bg=true&u=none - error undefined net::ERR_NAME_NOT_RESOLVED
+2026-04-04 12:43:39.726 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:130480)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-04-04 12:43:39.727 [info] update#setState idle
+2026-04-04 13:43:46.653 [info] update#setState checking for updates
+2026-04-04 13:43:49.604 [error] #6: https://update.code.visualstudio.com/api/update/linux-x64/stable/e7fb5e96c0730b9deb70b33781f98e2f35975036?bg=true&u=none - error undefined net::ERR_NETWORK_CHANGED
+2026-04-04 13:43:49.608 [error] Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:130480)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-04-04 13:43:49.616 [info] update#setState idle

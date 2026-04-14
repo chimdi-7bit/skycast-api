@@ -1,0 +1,14 @@
+2026-04-08 21:09:46.286 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 288b8db71d937eca
+2026-04-08 21:09:48.944 [info] [CloudCode] POST v1internal:onboardUser traceId: 8091e7768e6e3f94
+2026-04-08 21:09:51.052 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: f8a701e21de48094
+2026-04-08 21:09:52.408 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 9ce44248b93e70ad
+2026-04-08 21:10:25.343 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: f5ee47a6a8624cf5
+2026-04-08 21:10:26.462 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 9cb82ff2cf284293
+2026-04-08 21:15:24.875 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 1baf8a83783b4225
+2026-04-08 21:15:26.011 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 37ac98a830117c80
+2026-04-08 21:20:26.179 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 9454c104380eac3d
+2026-04-08 21:20:28.155 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 7f388ee2d2cb6bf1
+2026-04-08 21:58:26.943 [error] Failed to fetch NUXes: request to https://daily-cloudcode-pa.googleapis.com/v1internal/cascadeNuxes failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-04-08 21:58:26.954 [error] Failed to make POST request: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-04-08 23:14:12.621 [error] Failed to make POST request: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-08 23:14:12.699 [error] Failed to fetch NUXes: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com

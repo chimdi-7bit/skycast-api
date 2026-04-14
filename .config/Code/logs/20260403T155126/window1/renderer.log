@@ -1,0 +1,26 @@
+2026-04-03 15:51:40.124 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 32ms.
+2026-04-03 15:51:40.346 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 44ms.
+2026-04-03 15:51:40.432 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 25ms.
+2026-04-03 15:51:44.428 [info] Started local extension host with pid 1188.
+2026-04-03 15:51:45.612 [info] Started initializing default profile extensions in extensions installation folder. file:///home/chimdi/.vscode/extensions
+2026-04-03 15:51:52.226 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/chimdi/.vscode/extensions
+2026-04-03 15:52:05.613 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-03 15:52:10.446 [warning] Creation of workbench contribution 'workbench.contrib.dynamicWindowConfiguration' took 246ms.
+2026-04-03 15:52:11.974 [info] [perf] Render performance baseline is 134ms
+2026-04-03 21:24:37.186 [warning] [LM] Failed to request chat control data Failed to fetch
+2026-04-03 21:24:37.194 [error] TypeError: Failed to fetch
+    at XPo (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5032:50482)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5032:51778
+    at upt.logAndRequest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:935:10291)
+    at upt.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5032:51758)
+    at jqe.doFetchAlerts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5390:7550)
+    at jqe.fetchAlerts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5390:7443)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5390:7334
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:406:80448
+2026-04-04 12:43:33.546 [error] Error: Fetch timeout: 20000ms
+    at XPo (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5032:50692)
+    at async upt.logAndRequest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:935:10285)
+    at async jqe.doFetchAlerts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5390:7524)
+    at async jqe.fetchAlerts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5390:7432)
+2026-04-04 12:43:38.768 [warning] [LM] Failed to request chat control data Failed to fetch
+2026-04-04 12:49:04.901 [warning] [LM] Failed to request chat control data Failed to fetch

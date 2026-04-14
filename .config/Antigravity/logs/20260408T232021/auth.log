@@ -1,0 +1,32 @@
+2026-04-08 23:20:33.174 [info] [Auth] AntigravityAuthMainService initialized
+2026-04-09 00:15:25.158 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-04-09 00:15:27.579 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-04-09 00:15:28.655 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-04-09 01:10:34.309 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-04-09 02:10:24.576 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-04-09 02:10:26.446 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-04-09 02:10:27.706 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-04-09 02:20:33.027 [error] [Auth] Error refreshing user status: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-04-09 02:25:32.929 [error] [Auth] Error refreshing user status: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-04-09 02:30:32.898 [error] [Auth] Error refreshing user status: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-04-09 02:35:32.907 [error] [Auth] Error refreshing user status: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-04-09 02:40:32.946 [error] [Auth] Error refreshing user status: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-04-09 02:45:32.958 [error] [Auth] Error refreshing user status: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-04-10 02:03:33.056 [error] [Auth] Error refreshing user status: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-10 02:08:32.896 [error] [Auth] Error refreshing user status: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-10 02:13:32.851 [error] [Auth] Error refreshing user status: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-10 02:18:32.537 [error] [Auth] Error refreshing user status: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-10 02:23:32.863 [error] [Auth] Error refreshing user status: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-10 02:28:32.863 [error] [Auth] Error refreshing user status: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-10 02:33:32.875 [error] [Auth] Error refreshing user status: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-10 02:38:32.861 [error] [Auth] Error refreshing user status: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-10 02:43:32.885 [error] [Auth] Error refreshing user status: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-10 02:48:32.925 [error] [Auth] Error refreshing user status: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-10 02:53:32.897 [error] [Auth] Error refreshing user status: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-10 02:58:32.950 [error] [Auth] Error refreshing user status: request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo EAI_AGAIN oauth2.googleapis.com
+2026-04-10 03:03:09.817 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-04-10 03:03:12.508 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-04-10 03:03:14.520 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-04-10 04:03:05.550 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-04-10 04:03:28.470 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-04-10 04:03:31.911 [info] OAuth token changed, executing antigravity.handleAuthRefresh

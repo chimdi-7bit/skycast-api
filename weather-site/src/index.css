@@ -1,0 +1,20 @@
+:root {  /* Global CSS variables and base styles */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;  /* Set default app-wide font family */
+  line-height: 1.5;  /* Set consistent vertical text spacing */
+  font-weight: 400;  /* Set regular font weight as default */
+  color-scheme: light dark;  /* Enable operating system-aware light/dark mode support */
+  color: rgba(255, 255, 255, 0.87);  /* Set default high-contrast text color for dark backgrounds */
+  background-color: #242424;  /* Set dark theme background color */
+  font-synthesis: none;  /* Disable browser-generated bold or italic styles */
+  text-rendering: optimizeLegibility;  /* Improve text clarity on high-resolution displays */
+  -webkit-font-smoothing: antialiased;  /* Smoothen font edges in Chrome and Safari browsers */
+  -moz-osx-font-smoothing: grayscale;  /* Smoothen font edges in Firefox on macOS devices */
+}  /* End of :root styling */
+
+body {  /* Styles for the body of the weather application */
+  margin: 0;  /* Remove browser default margins from the body */
+  display: flex;  /* Use flexbox layout for the main body content */
+  place-items: center;  /* Center weather application horizontally and vertically */
+  min-width: 320px;  /* Ensure application is usable on small mobile screens */
+  min-height: 100vh;  /* Make application cover the entire height of the browser tab */
+}  /* End of body styling */

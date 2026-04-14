@@ -1,0 +1,15 @@
+2026-04-05 15:44:24.772 [info] Extension host with pid 4401 started
+2026-04-05 15:44:24.772 [info] Skipping acquiring lock for /home/chimdi/.config/Code/User/workspaceStorage/628333b4b58779a773112c12cb4fa1c3.
+2026-04-05 15:44:25.771 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-04-05 15:44:25.942 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-04-05 15:44:27.352 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-04-05 15:44:27.409 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2026-04-05 15:44:29.391 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-04-05 15:44:29.975 [info] Eager extensions activated
+2026-04-05 15:44:30.004 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-04-05 15:44:30.050 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-04-05 15:44:35.270 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-04-05 15:44:35.355 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-04-05 15:44:35.459 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-04-05 16:26:43.461 [info] Extension host terminating: received terminate message from renderer
+2026-04-05 16:26:44.367 [info] Extension host with pid 4401 exiting with code 0

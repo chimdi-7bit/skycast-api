@@ -1,0 +1,40 @@
+2026-04-08 23:18:53.327 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.337 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.343 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.359 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.372 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.377 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.383 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.392 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.407 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.415 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.419 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.425 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.434 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.440 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:53.447 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:18:54.618 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 73ms.
+2026-04-08 23:18:54.667 [warning] Creation of workbench contribution 'workbench.contrib.notebook' took 23ms.
+2026-04-08 23:18:54.740 [warning] Creation of workbench contribution 'workbench.contrib.registerCellSchemas' took 56ms.
+2026-04-08 23:18:54.773 [warning] Creation of workbench contribution 'workbench.contrib.chatResolver' took 26ms.
+2026-04-08 23:18:54.894 [warning] Creation of workbench contribution 'workbench.contrib.chatViewsWelcomeHandler' took 85ms.
+2026-04-08 23:18:54.952 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 74ms.
+2026-04-08 23:18:55.100 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 62ms.
+2026-04-08 23:18:55.247 [warning] Creation of workbench contribution 'antigravity.agentSidePanel' took 71ms.
+2026-04-08 23:18:55.429 [warning] Creation of workbench contribution 'mcpContextKeys' took 41ms.
+2026-04-08 23:18:55.495 [warning] Creation of workbench contribution 'workbench.contrib.interactiveDocument' took 43ms.
+2026-04-08 23:18:55.577 [warning] Creation of workbench contribution 'workbench.contrib.userDataProfiles' took 45ms.
+2026-04-08 23:18:55.609 [warning] Creation of workbench contribution 'workbench.contrib.localHistoryTimeline' took 31ms.
+2026-04-08 23:19:03.050 [info] Started local extension host with pid 3494.
+2026-04-08 23:19:03.873 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-04-08 23:19:03.890 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-04-08 23:19:04.738 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-08 23:19:04.805 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-08 23:19:04.880 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-04-08 23:19:04.888 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-04-08 23:19:04.895 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-04-08 23:19:26.527 [info] Extension host (LocalProcess pid: 3494) is unresponsive.
+2026-04-08 23:19:28.275 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 328ms.
+2026-04-08 23:19:29.625 [info] Extension host (LocalProcess pid: 3494) is responsive.

@@ -1,0 +1,112 @@
+<!doctype html>  <!-- Define the document as an HTML5 document -->
+<html lang="en" class="dark">  <!-- Set the document language to English and enable dark mode -->
+  <head>  <!-- Start the head section for metadata and external resources -->
+    <meta charset="UTF-8" />  <!-- Use UTF-8 character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <!-- Make the layout responsive -->
+    <title>AtmosSync | Stratospheric Intelligence</title>  <!-- Set the application title -->
+    
+    <!-- Load Tailwind CSS via CDN for rapid UI development -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <!-- Load custom fonts: Inter for body/headlines and Space Grotesk for labels -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    
+    <!-- Load Material Symbols for specialized weather and UI icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+    <script>
+      // Configure Tailwind with the specific brand color palette provided by the user
+      tailwind.config = {
+          darkMode: "class", // Enable class-based dark mode
+          theme: {
+              extend: {
+                  "colors": { // Custom theme colors for the AtmosSync brand
+                      "secondary-fixed-dim": "#bdc2ff",
+                      "inverse-primary": "#00677f",
+                      "on-error": "#690005",
+                      "surface-container-highest": "#27354c",
+                      "on-secondary-container": "#a8afff",
+                      "on-secondary": "#1b247f",
+                      "tertiary-fixed-dim": "#ffba4a",
+                      "surface-dim": "#041329",
+                      "on-secondary-fixed-variant": "#343d96",
+                      "on-tertiary-fixed-variant": "#624000",
+                      "surface-tint": "#47d6ff",
+                      "on-background": "#d6e3ff",
+                      "on-tertiary-container": "#6c4700",
+                      "primary": "#a5e7ff",
+                      "primary-fixed-dim": "#47d6ff",
+                      "tertiary": "#ffd79f",
+                      "surface-container-lowest": "#010e24",
+                      "secondary-container": "#343d96",
+                      "surface-container-high": "#1c2a41",
+                      "on-primary-container": "#00566a",
+                      "outline": "#859399",
+                      "inverse-surface": "#d6e3ff",
+                      "tertiary-fixed": "#ffddb1",
+                      "surface-container": "#112036",
+                      "inverse-on-surface": "#233148",
+                      "secondary-fixed": "#e0e0ff",
+                      "background": "#041329",
+                      "on-surface-variant": "#bbc9cf",
+                      "primary-fixed": "#b6ebff",
+                      "on-primary": "#003543",
+                      "outline-variant": "#3c494e",
+                      "on-primary-fixed-variant": "#004e60",
+                      "surface-variant": "#27354c",
+                      "primary-container": "#00d2ff",
+                      "on-error-container": "#ffdad6",
+                      "surface": "#041329",
+                      "surface-bright": "#2c3951",
+                      "error": "#ffb4ab",
+                      "error-container": "#93000a",
+                      "secondary": "#bdc2ff",
+                      "on-surface": "#d6e3ff",
+                      "on-tertiary-fixed": "#291800",
+                      "tertiary-container": "#ffb229",
+                      "on-primary-fixed": "#001f28",
+                      "on-secondary-fixed": "#000767",
+                      "surface-container-low": "#0d1c32",
+                      "on-tertiary": "#442b00"
+                  },
+                  "borderRadius": { // Standardized corner radii
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+                  },
+                  "fontFamily": { // Brand typography mapping
+                      "headline": ["Inter"],
+                      "body": ["Inter"],
+                      "label": ["Space Grotesk"]
+                  }
+              },
+          },
+      }
+    </script>
+    <style>
+        /* Custom glassmorphism and background effects not easily achievable with standard Tailwind */
+        .glass-panel {
+            background: rgba(28, 42, 65, 0.65); /* Translucent dark blue background */
+            backdrop-filter: blur(40px); /* Heavy blur for premium glass look */
+            -webkit-backdrop-filter: blur(40px); /* Safari support for backdrop blur */
+            border: 1px solid rgba(255, 255, 255, 0.2); /* Soft white border to define glass edge */
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Depth shadow for the floating cards */
+        }
+        .text-glow {
+            text-shadow: 0 0 15px rgba(0, 210, 255, 0.3); /* Cyan glow for temperature display */
+        }
+        body {
+            background-image: radial-gradient(circle at 50% -20%, #112036 0%, #041329 100%); /* Deep space gradient */
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; /* Material symbol configuration */
+            vertical-align: middle; /* Align icons with surrounding text */
+        }
+    </style>
+  </head>
+  <body class="font-body text-on-surface bg-background min-h-screen">  <!-- Apply base typography and background -->
+    <div id="root"></div>  <!-- Root mount point for the React application -->
+    <script type="module" src="/src/main.tsx"></script>  <!-- Load the React entry point -->
+  </body>
+</html>

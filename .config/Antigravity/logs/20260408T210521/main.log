@@ -1,0 +1,26 @@
+2026-04-08 21:05:23.152 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-04-08 21:05:24.028 [info] update#setState idle
+2026-04-08 21:05:24.323 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:41545
+2026-04-08 21:05:25.519 [info] [OAuthTokenLifecycle] Starting one-time OAuth token migration from legacy state sync
+2026-04-08 21:05:25.520 [info] [OAuthTokenLifecycle] No agent manager init state found, skipping migration
+2026-04-08 21:05:25.521 [info] [OverrideStoreLifecycle] Migrating secure mode from agent preferences to override store
+2026-04-08 21:05:28.311 [info] Started initializing default profile extensions in extensions installation folder. file:///home/chimdi/.antigravity/extensions
+2026-04-08 21:05:28.417 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/chimdi/.antigravity/extensions
+2026-04-08 21:05:39.615 [info] [SidebarWorkspacesLifecycle] Running one-time migration from agent manager init state
+2026-04-08 21:05:39.620 [info] [SidebarWorkspacesLifecycle] No agent manager init state found, skipping migration
+2026-04-08 21:05:39.621 [info] [SidebarWorkspacesLifecycle] Running scratch workspace cleanup migration
+2026-04-08 21:05:39.625 [info] [SidebarWorkspacesLifecycle] No empty scratch workspaces to clean up
+2026-04-08 21:05:54.189 [info] update#setState checking for updates
+2026-04-08 21:05:56.233 [info] update#setState idle
+2026-04-08 21:06:12.468 [info] [ArtifactReviewLifecycle] Running one-time migration from agent manager init state
+2026-04-08 21:06:12.469 [info] [ArtifactReviewLifecycle] No agent manager init state found, skipping migration
+2026-04-08 21:58:16.824 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-08 23:13:41.786 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-08 23:13:41.882 [info] update#setState checking for updates
+2026-04-08 23:14:08.331 [error] #3: https://antigravity-auto-updater-974169037036.us-central1.run.app/api/update/linux-x64/stable/62335c71d47037adf0a8de54e250bb8ea6016b15/0a4346f806b28b3ce94905c3ac56fcd5ee2337d8613161696aba52eb0c3551cc?bg=true - error undefined net::ERR_NAME_NOT_RESOLVED
+2026-04-08 23:14:08.336 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124677)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-04-08 23:14:08.350 [info] update#setState idle
+2026-04-08 23:16:33.897 [info] Extension host with pid 1957 exited with code: 0, signal: unknown.
+2026-04-08 23:16:36.675 [warning] [storage main] detected slow close() operation: Time: 2274ms, DB size: 253952b, Large Keys: iconThemeData:185688, antigravityUnifiedStateSync.theme:10568, colorThemeData:7059, antigravityUnifiedStateSync.userStatus:5536, workbench.activity.placeholderViewlets:5207

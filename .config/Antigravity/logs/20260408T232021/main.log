@@ -1,0 +1,43 @@
+2026-04-08 23:20:23.420 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-04-08 23:20:23.420 [info] update#setState idle
+2026-04-08 23:20:23.421 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:44513
+2026-04-08 23:20:52.941 [info] update#setState checking for updates
+2026-04-08 23:20:53.598 [info] update#setState idle
+2026-04-08 23:27:15.781 [info] Extension host with pid 4559 exited with code: 0, signal: unknown.
+2026-04-08 23:27:17.969 [error] [UtilityProcess id: 3, type: fileWatcher, pid: 4532]: crashed with code 133 and reason 'crashed'
+2026-04-08 23:53:23.406 [warning] [perf] profiling STARTED d0f85d6f-fa21-4344-80d7-cea060b92a5b
+2026-04-08 23:53:28.558 [warning] [perf] profiling DONE d0f85d6f-fa21-4344-80d7-cea060b92a5b
+2026-04-08 23:53:45.710 [warning] [perf] profiling STARTED d0f85d6f-fa21-4344-80d7-cea060b92a5b
+2026-04-08 23:53:50.993 [warning] [perf] profiling DONE d0f85d6f-fa21-4344-80d7-cea060b92a5b
+2026-04-08 23:54:10.537 [warning] [perf] profiling STARTED d0f85d6f-fa21-4344-80d7-cea060b92a5b
+2026-04-08 23:54:16.005 [warning] [perf] profiling DONE d0f85d6f-fa21-4344-80d7-cea060b92a5b
+2026-04-09 00:00:03.387 [warning] [perf] profiling STARTED 15f33c65-f052-4e4e-bf63-cea88fba567c
+2026-04-09 00:00:08.911 [warning] [perf] profiling DONE 15f33c65-f052-4e4e-bf63-cea88fba567c
+2026-04-09 00:00:56.420 [warning] [perf] profiling STARTED 15f33c65-f052-4e4e-bf63-cea88fba567c
+2026-04-09 00:01:02.106 [warning] [perf] profiling DONE 15f33c65-f052-4e4e-bf63-cea88fba567c
+2026-04-09 00:02:05.867 [warning] [perf] profiling STARTED 15f33c65-f052-4e4e-bf63-cea88fba567c
+2026-04-09 00:02:11.227 [warning] [perf] profiling DONE 15f33c65-f052-4e4e-bf63-cea88fba567c
+2026-04-09 00:20:52.983 [info] update#setState checking for updates
+2026-04-09 00:20:54.250 [info] update#setState idle
+2026-04-09 01:20:53.005 [info] update#setState checking for updates
+2026-04-09 01:21:02.045 [info] update#setState idle
+2026-04-09 02:17:46.498 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-09 02:20:53.019 [info] update#setState checking for updates
+2026-04-09 02:21:19.318 [error] #6: https://antigravity-auto-updater-974169037036.us-central1.run.app/api/update/linux-x64/stable/62335c71d47037adf0a8de54e250bb8ea6016b15/0a4346f806b28b3ce94905c3ac56fcd5ee2337d8613161696aba52eb0c3551cc?bg=true - error undefined net::ERR_NAME_NOT_RESOLVED
+2026-04-09 02:21:19.359 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124677)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-04-09 02:21:19.370 [info] update#setState idle
+2026-04-10 02:03:01.166 [warning] No ptyHost heartbeat after 6 seconds
+2026-04-10 02:03:01.852 [info] update#setState checking for updates
+2026-04-10 02:03:28.263 [error] #7: https://antigravity-auto-updater-974169037036.us-central1.run.app/api/update/linux-x64/stable/62335c71d47037adf0a8de54e250bb8ea6016b15/0a4346f806b28b3ce94905c3ac56fcd5ee2337d8613161696aba52eb0c3551cc?bg=true - error undefined net::ERR_NAME_NOT_RESOLVED
+2026-04-10 02:03:28.264 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124677)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-04-10 02:03:28.273 [info] update#setState idle
+2026-04-10 03:03:01.861 [info] update#setState checking for updates
+2026-04-10 03:03:04.451 [info] update#setState idle
+2026-04-10 04:03:02.061 [info] update#setState checking for updates
+2026-04-10 04:03:06.438 [info] update#setState idle
+2026-04-10 04:03:28.398 [warning] [perf] profiling STARTED 752794c6-ece3-4a5e-8e1f-715e2181eca5
+2026-04-10 04:03:39.353 [warning] [perf] profiling DONE 752794c6-ece3-4a5e-8e1f-715e2181eca5

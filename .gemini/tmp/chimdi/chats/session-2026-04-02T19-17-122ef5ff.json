@@ -1,0 +1,37 @@
+{
+  "sessionId": "122ef5ff-d5b2-40c2-a576-21b093f8f18a",
+  "projectHash": "204c124eb28df9afb7f64b4c2bf24e16f835180f9e9ee3c20a39571a5af82637",
+  "startTime": "2026-04-02T19:17:57.152Z",
+  "lastUpdated": "2026-04-02T19:18:26.587Z",
+  "messages": [
+    {
+      "id": "932cdf4d-efb1-43d9-971f-dc1637232d7b",
+      "timestamp": "2026-04-02T19:17:57.153Z",
+      "type": "info",
+      "content": "\n\nAttempting to open authentication page in your browser.\nOtherwise navigate to:\n\nhttps://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http%3A%2F%2F127.0.0.1%3A41643%2Foauth2callback&access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&state=5d6c4015e17d7b16261921083cd11de155f9c81b463894f417cb91647da31f23&response_type=code&client_id=681255809395-oo8ft2oprdrnp9e3aqf6av3hmdib135j.apps.googleusercontent.com\n\n\n"
+    },
+    {
+      "id": "7fc11808-ce96-48ef-8b36-5a61260ca063",
+      "timestamp": "2026-04-02T19:17:57.240Z",
+      "type": "info",
+      "content": "Waiting for authentication...\n"
+    },
+    {
+      "id": "afb5e90e-b9f4-40da-a132-9b1b31211d4a",
+      "timestamp": "2026-04-02T19:18:19.155Z",
+      "type": "info",
+      "content": "Authentication succeeded\n"
+    },
+    {
+      "id": "ba9c167e-61e0-4066-9a81-68f8a2b97484",
+      "timestamp": "2026-04-02T19:18:26.587Z",
+      "type": "user",
+      "content": [
+        {
+          "text": "Explain how to build a playlist transfer agent that can transfer songs on a playlist from one music streaming platform to another\n\ngemini Explain how to build a playlist transfer agent that can transfer songs on a playlist from one music streaming platform to another"
+        }
+      ]
+    }
+  ],
+  "kind": "main"
+}

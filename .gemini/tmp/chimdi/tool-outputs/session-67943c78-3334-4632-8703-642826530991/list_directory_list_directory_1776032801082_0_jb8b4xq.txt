@@ -1,0 +1,3 @@
+{
+  "output": "Directory listing for /home/chimdi/weather-site/src:\nApp.css (6739 bytes)\nApp.tsx (0 bytes)\nindex.css (1417 bytes)\nmain.tsx (706 bytes)\nnew-feature.ts (34 bytes)"
+}

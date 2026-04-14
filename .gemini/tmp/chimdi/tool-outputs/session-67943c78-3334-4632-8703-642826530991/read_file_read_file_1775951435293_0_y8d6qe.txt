@@ -1,0 +1,3 @@
+{
+  "output": "OPENWEATHER_API_KEY=eff07667d347ceb51f3928391c480f0d  # Your actual OpenWeatherMap API key for weather data\nNEWS_API_KEY=8388e4772c334a9aa0f2ed8bf7e127b3  # Your actual NewsAPI key for fetching headlines\nEXCHANGE_RATE_API_KEY=80452884697d56bb86bf0da7  # Your actual ExchangeRate-API key for currency conversions\n\n# Spotify API Credentials\nSPOTIFY_CLIENT_ID=177573d42b5546e880ba4d46f9bed7a4\nSPOTIFY_CLIENT_SECRET=75a7e219b29443dca3e5eada40303d64\nSPOTIFY_REDIRECT_URI=http://localhost:8888/callback\n\n# YTMusic Authentication\nYT_MUSIC_AUTH_FILE=oauth.json\n"
+}

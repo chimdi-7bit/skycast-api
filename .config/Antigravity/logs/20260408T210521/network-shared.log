@@ -1,0 +1,10 @@
+2026-04-08 21:58:19.393 [error] #59: https://open-vsx.org/vscode/asset/llvm-vs-code-extensions/vscode-clangd/0.4.0/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&targetPlatform=universal&install=true - error GET net::ERR_NETWORK_CHANGED
+2026-04-08 21:58:33.993 [error] #60: https://open-vsx.org/vscode/asset/llvm-vs-code-extensions/vscode-clangd/0.4.0/Microsoft.VisualStudio.Services.VSIXPackage?targetPlatform=universal&install=true - error GET net::ERR_NAME_NOT_RESOLVED
+2026-04-08 21:58:47.504 [error] #61: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2026-04-08 21:59:00.147 [error] #62: https://open-vsx.org/vscode/asset/llvm-vs-code-extensions/vscode-clangd/0.4.0/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&targetPlatform=universal&install=true - error GET net::ERR_NAME_NOT_RESOLVED
+2026-04-08 23:13:41.937 [error] #64: https://open-vsx.org/vscode/asset/llvm-vs-code-extensions/vscode-clangd/0.4.0/Microsoft.VisualStudio.Services.VSIXPackage?targetPlatform=universal&install=true - error GET Request timeout after 60000ms
+2026-04-08 23:13:42.072 [error] #63: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT
+2026-04-08 23:13:42.079 [error] #65: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT
+2026-04-08 23:14:08.767 [error] #66: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2026-04-08 23:14:08.816 [error] #67: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2026-04-08 23:14:14.239 [error] #68: https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream - error POST net::ERR_NETWORK_CHANGED

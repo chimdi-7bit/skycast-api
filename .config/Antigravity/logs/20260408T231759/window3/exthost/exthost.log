@@ -1,0 +1,12 @@
+2026-04-08 23:19:18.943 [info] Extension host with pid 3494 started
+2026-04-08 23:19:19.840 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onCommand:antigravity.importVSCodeRecentWorkspaces', root cause: google.antigravity
+2026-04-08 23:19:20.252 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onCommand:antigravity.importVSCodeRecentWorkspaces', root cause: google.antigravity
+2026-04-08 23:19:20.851 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-04-08 23:19:23.241 [info] ExtensionService#_doActivateExtension google.antigravity, startup: false, activationEvent: 'onCommand:antigravity.importVSCodeRecentWorkspaces'
+2026-04-08 23:19:31.094 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-04-08 23:19:31.160 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-04-08 23:19:31.193 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-04-08 23:19:34.917 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-04-08 23:19:43.988 [info] Eager extensions activated
+2026-04-08 23:19:53.699 [info] Extension host terminating: renderer closed the MessagePort
+2026-04-08 23:19:54.054 [info] Extension host with pid 3494 exiting with code 0

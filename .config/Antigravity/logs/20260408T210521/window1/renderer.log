@@ -1,0 +1,237 @@
+2026-04-08 21:05:46.708 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.781 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.787 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.794 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.801 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.808 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.812 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.817 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.821 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.824 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.830 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.835 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.837 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.846 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:46.851 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 21:05:47.184 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 24ms.
+2026-04-08 21:05:50.104 [info] Started local extension host with pid 1957.
+2026-04-08 21:05:58.560 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-08 21:05:58.574 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-08 21:05:58.617 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-04-08 21:05:58.640 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-04-08 21:05:58.662 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-04-08 21:06:07.996 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-04-08 21:06:13.984 [info] Extension host (LocalProcess pid: 1957) is unresponsive.
+2026-04-08 21:06:19.022 [info] Extension host (LocalProcess pid: 1957) is responsive.
+2026-04-08 21:06:28.958 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 214ms.
+2026-04-08 21:12:38.761 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 21:13:41.807 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 21:14:44.881 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 21:15:47.946 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 21:16:50.992 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 21:17:54.041 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 21:18:57.091 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 21:20:00.158 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 21:20:07.658 [error] Cancelled: Canceled: Canceled
+    at jKn.N (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5886:36563)
+    at async jKn.M (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5886:35210)
+    at async jKn.E (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5886:25829)
+    at async vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5886:25194
+    at async Promise.all (index 0)
+    at async jKn.D (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5886:25148)
+    at async jKn.getExtensions (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5886:23810)
+    at async lMn.getExtensions (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:7010:15324)
+    at async zfd.Rc (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:7006:18108)
+    at async zfd.$c (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:7006:20752)
+2026-04-08 21:21:03.215 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 21:22:06.381 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 21:23:09.419 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 21:23:34.345 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-04-08 21:23:34.378 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-04-08 21:23:34.476 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-08 21:23:34.478 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-08 21:23:34.490 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-04-08 21:23:34.492 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-04-08 21:23:34.494 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-04-08 21:23:38.396 [info] Extension host (LocalProcess pid: 1957) is unresponsive.
+2026-04-08 21:23:38.928 [info] Extension host (LocalProcess pid: 1957) is responsive.
+2026-04-08 21:23:39.728 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-04-08 21:23:42.568 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-04-08 21:24:02.862 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-08 21:24:02.864 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-08 21:24:02.866 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-04-08 21:24:02.869 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-04-08 21:24:02.871 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-04-08 21:24:12.957 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 21:24:14.985 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-08 21:24:14.986 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-08 21:24:14.992 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-04-08 21:24:14.994 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-04-08 21:24:15.099 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-04-08 21:58:20.778 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 23:13:45.274 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 23:14:08.534 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-08 23:14:48.564 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-04-08 23:15:51.725 [error] [Extension Host] FetchError: Unleash Repository error: request to http://localhost:46249/proxy/unleash/client/features failed, reason: 
+	at ClientRequest.<anonymous> (/usr/share/antigravity/resources/app/extensions/antigravity/dist/extension.js:2:1915375)
+	at ClientRequest.emit (node:events:519:28)
+	at ClientRequest.emit (node:domain:489:12)
+	at emitErrorEvent (node:_http_client:107:11)
+	at Socket.socketErrorListener (node:_http_client:574:5)
+	at Socket.emit (node:events:519:28)
+	at Socket.emit (node:domain:489:12)
+	at emitErrorNT (node:internal/streams/destroy:170:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)

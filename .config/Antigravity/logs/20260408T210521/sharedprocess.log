@@ -1,0 +1,63 @@
+2026-04-08 21:11:43.863 [info] Getting Manifest... meta.pyrefly
+2026-04-08 21:11:46.420 [info] Installing extension: meta.pyrefly {"context":{"skipPublisherTrust":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json","path":"/home/chimdi/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-04-02T19:49:45.095Z"}}
+2026-04-08 21:11:48.027 [info] Getting Manifest... ms-python.python
+2026-04-08 21:11:50.461 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-04-08 21:11:51.614 [info] Getting Manifest... ms-python.debugpy
+2026-04-08 21:11:53.558 [info] Installing extension: ms-python.python {"context":{"skipPublisherTrust":true,"dependecyOrPackExtensionInstall":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json","path":"/home/chimdi/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-04-02T19:49:45.095Z"},"pinned":false,"installGivenVersion":false}
+2026-04-08 21:11:53.559 [info] Installing extension: ms-python.vscode-python-envs {"context":{"skipPublisherTrust":true,"dependecyOrPackExtensionInstall":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json","path":"/home/chimdi/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-04-02T19:49:45.095Z"},"pinned":false,"installGivenVersion":false}
+2026-04-08 21:11:53.560 [info] Installing extension: ms-python.debugpy {"context":{"skipPublisherTrust":true,"dependecyOrPackExtensionInstall":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json","path":"/home/chimdi/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-04-02T19:49:45.095Z"},"pinned":false,"installGivenVersion":false}
+2026-04-08 21:12:07.402 [info] Extracted extension to file:///home/chimdi/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal: ms-python.vscode-python-envs
+2026-04-08 21:12:07.627 [info] Renamed to /home/chimdi/.antigravity/extensions/ms-python.vscode-python-envs-1.20.1-universal
+2026-04-08 21:14:51.903 [info] Extracted extension to file:///home/chimdi/.antigravity/extensions/ms-python.debugpy-2025.18.0-linux-x64: ms-python.debugpy
+2026-04-08 21:14:52.769 [info] Renamed to /home/chimdi/.antigravity/extensions/ms-python.debugpy-2025.18.0-linux-x64
+2026-04-08 21:15:17.977 [info] Extracted extension to file:///home/chimdi/.antigravity/extensions/ms-python.python-2026.4.0-universal: ms-python.python
+2026-04-08 21:15:19.574 [info] Renamed to /home/chimdi/.antigravity/extensions/ms-python.python-2026.4.0-universal
+2026-04-08 21:23:32.858 [info] Extracted extension to file:///home/chimdi/.antigravity/extensions/meta.pyrefly-0.60.0-linux-x64: meta.pyrefly
+2026-04-08 21:23:33.488 [info] Renamed to /home/chimdi/.antigravity/extensions/meta.pyrefly-0.60.0-linux-x64
+2026-04-08 21:23:33.780 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json
+2026-04-08 21:23:33.781 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json
+2026-04-08 21:23:33.786 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json
+2026-04-08 21:23:33.795 [info] Extension installed successfully: meta.pyrefly vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json
+2026-04-08 21:23:33.798 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at va.value (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62766)
+    at U.C (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2328)
+    at U.D (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2398)
+    at U.fire (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2615)
+    at mf.L (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:10866)
+    at async mf.installGalleryExtensions (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:2621)
+    at async mf.installFromGallery (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1870)
+2026-04-08 21:23:42.103 [info] Getting Manifest... golang.go
+2026-04-08 21:23:44.662 [info] Installing extension: golang.go {"context":{"skipPublisherTrust":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json","path":"/home/chimdi/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-04-02T19:49:45.095Z"}}
+2026-04-08 21:24:01.673 [info] Extracted extension to file:///home/chimdi/.antigravity/extensions/golang.go-0.52.2-universal: golang.go
+2026-04-08 21:24:01.925 [info] Renamed to /home/chimdi/.antigravity/extensions/golang.go-0.52.2-universal
+2026-04-08 21:24:02.417 [info] Extension installed successfully: golang.go vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json
+2026-04-08 21:24:02.427 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at va.value (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62766)
+    at U.C (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2328)
+    at U.D (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2398)
+    at U.fire (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2615)
+    at mf.L (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:10866)
+    at async mf.installGalleryExtensions (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:2621)
+    at async mf.installFromGallery (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1870)
+2026-04-08 21:24:05.754 [info] Getting Manifest... shopify.ruby-lsp
+2026-04-08 21:24:07.697 [info] Installing extension: shopify.ruby-lsp {"context":{"skipPublisherTrust":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json","path":"/home/chimdi/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-04-02T19:49:45.095Z"}}
+2026-04-08 21:24:12.655 [info] Extracted extension to file:///home/chimdi/.antigravity/extensions/shopify.ruby-lsp-0.10.2-universal: shopify.ruby-lsp
+2026-04-08 21:24:12.968 [info] Renamed to /home/chimdi/.antigravity/extensions/shopify.ruby-lsp-0.10.2-universal
+2026-04-08 21:24:14.110 [info] Extension installed successfully: shopify.ruby-lsp vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json
+2026-04-08 21:24:14.222 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at va.value (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62766)
+    at U.C (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2328)
+    at U.D (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2398)
+    at U.fire (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2615)
+    at mf.L (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:10866)
+    at async mf.installGalleryExtensions (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:2621)
+    at async mf.installFromGallery (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1870)
+2026-04-08 21:24:18.885 [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+2026-04-08 21:24:20.471 [info] Installing extension: llvm-vs-code-extensions.vscode-clangd {"context":{"skipPublisherTrust":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json","path":"/home/chimdi/.antigravity/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-04-02T19:49:45.095Z"}}
+2026-04-08 21:58:17.078 [warning] Failed downloading vsix. Unable to write file '/home/chimdi/.config/Antigravity/CachedExtensionVSIXs/.57de7ee2-d692-48bd-a5f3-c544b9064b70' (Error: net::ERR_QUIC_PROTOCOL_ERROR). Retry again... llvm-vs-code-extensions.vscode-clangd
+2026-04-08 21:58:34.026 [warning] Failed downloading vsix. net::ERR_NAME_NOT_RESOLVED. Retry again... llvm-vs-code-extensions.vscode-clangd
+2026-04-08 23:13:42.080 [error] Error while installing the extension llvm-vs-code-extensions.vscode-clangd Request timeout after 60000ms vscode-userdata:/home/chimdi/.antigravity/extensions/extensions.json
+2026-04-08 23:13:42.081 [error] [uncaught exception in sharedProcess]: Request timeout after 60000ms: Error: Request timeout after 60000ms
+    at Timeout.<anonymous> (file:///usr/share/antigravity/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:117:28137)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)

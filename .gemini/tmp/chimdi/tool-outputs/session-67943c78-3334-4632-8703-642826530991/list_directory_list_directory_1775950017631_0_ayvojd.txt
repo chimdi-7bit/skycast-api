@@ -1,0 +1,3 @@
+{
+  "output": "Directory listing for /home/chimdi/music-agent:\n[DIR] services\n[DIR] utils\n[DIR] venv\nmain.py (1723 bytes)\noauth.json (0 bytes)"
+}

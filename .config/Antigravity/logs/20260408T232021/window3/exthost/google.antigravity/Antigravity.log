@@ -1,0 +1,12 @@
+2026-04-08 23:22:15.270 [info] I0408 23:22:14.313336  4728 server.go:1221] Starting language server process with pid 4728
+2026-04-08 23:22:15.271 [info] I0408 23:22:14.318939  4728 server.go:295] Setting GOMAXPROCS to 2
+2026-04-08 23:22:15.271 [info] I0408 23:22:14.396156  4728 server.go:441] Language server will attempt to listen on host 127.0.0.1
+2026-04-08 23:22:15.271 [info] I0408 23:22:14.426151  4728 server.go:455] Language server listening on random port at 42991 for HTTPS (gRPC)
+2026-04-08 23:22:15.271 [info] I0408 23:22:14.426814  4728 server.go:462] Language server listening on random port at 36313 for HTTP
+2026-04-08 23:22:16.035 [info] I0408 23:22:16.031840  4728 server.go:434] Created extension server client at port 42819
+2026-04-08 23:22:17.026 [info] I0408 23:22:17.019483  4728 cascade_manager.go:772] Reactive state is disabled
+2026-04-08 23:22:17.540 [info] (Antigravity) 2026-04-08 23:22:17.506 [INFO]: Language server started
+2026-04-08 23:22:18.196 [info] I0408 23:22:17.905214  4728 server.go:1679] initialized server successfully in 3.586201725s
+2026-04-08 23:22:19.085 [info] (Antigravity) 2026-04-08 23:22:19.085 [INFO]: LS lspClient started successfully
+2026-04-08 23:22:20.011 [info] I0408 23:22:20.009847  4728 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7ab48f3290e27d54
+2026-04-08 23:22:20.362 [info] I0408 23:22:20.360769  4728 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3cfc101775f67626

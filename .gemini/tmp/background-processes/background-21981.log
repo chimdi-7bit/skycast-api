@@ -1,0 +1,10 @@
+INFO:     Started server process [21983]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+DEBUG: Fetching weather for city=Lagos, lat=None, lon=None
+DEBUG: Weather API URL: http://api.openweathermap.org/data/2.5/weather?q=Lagos,NG&appid=eff07667d347ceb51f3928391c480f0d&units=metric
+DEBUG: Weather API Status Code: 200
+DEBUG: Raw sunrise_ts=1776058666, sunset_ts=1776102776
+DEBUG: Exception in get_weather: name 'datetime' is not defined
+INFO:     127.0.0.1:51434 - "GET /weather?city=Lagos HTTP/1.1" 500 Internal Server Error

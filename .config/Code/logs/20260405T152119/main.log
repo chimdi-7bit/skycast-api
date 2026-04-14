@@ -1,0 +1,9 @@
+2026-04-05 15:21:25.549 [info] update#setState idle
+2026-04-05 15:21:55.563 [info] update#setState checking for updates
+2026-04-05 15:21:55.889 [info] update#setState idle
+2026-04-05 16:21:55.585 [info] update#setState checking for updates
+2026-04-05 16:21:56.476 [info] update#setState idle
+2026-04-05 16:26:45.041 [info] Extension host with pid 4401 exited with code: 0, signal: unknown.
+2026-04-05 16:26:45.106 [info] Extension host with pid 3794 exited with code: 0, signal: unknown.
+2026-04-05 16:26:46.249 [error] Extension host with pid 4401 still exists, forcefully killing it...
+2026-04-05 16:26:46.295 [error] Extension host with pid 3794 still exists, forcefully killing it...

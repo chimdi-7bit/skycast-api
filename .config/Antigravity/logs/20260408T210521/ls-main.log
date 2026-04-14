@@ -1,0 +1,22 @@
+2026-04-08 21:05:24.749 [info] [LS Main] Starting language server from: /usr/share/antigravity/resources/app/extensions/antigravity/bin/language_server_linux_x64
+2026-04-08 21:05:25.568 [info] [LS Main] Args: --csrf_token b55972cf-57de-4cf1-b30f-e94174b77520 --extension_server_port 37591 --extension_server_csrf_token bd51e5e9-1b5d-4ba3-a529-26ad854961ac --app_data_dir antigravity --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+2026-04-08 21:05:25.688 [info] [LS Main] Process spawned with PID: 1906
+2026-04-08 21:05:28.704 [error] [LS Main stderr] I0408 21:05:28.677012  1906 server.go:1221] Starting language server process with pid 1906
+I0408 21:05:28.696284  1906 server.go:295] Setting GOMAXPROCS to 2
+
+2026-04-08 21:05:28.746 [error] [LS Main stderr] I0408 21:05:28.712870  1906 server.go:441] Language server will attempt to listen on host 127.0.0.1
+I0408 21:05:28.719614  1906 server.go:455] Language server listening on random port at 35607 for HTTPS (gRPC)
+I0408 21:05:28.728637  1906 server.go:462] Language server listening on random port at 36115 for HTTP
+
+2026-04-08 21:05:29.884 [error] [LS Main stderr] I0408 21:05:29.806027  1906 server.go:434] Created extension server client at port 37591
+
+2026-04-08 21:05:30.142 [error] [LS Main stderr] I0408 21:05:30.140353  1906 cascade_manager.go:772] Reactive state is disabled
+
+2026-04-08 21:05:30.275 [error] [LS Main stderr] E0408 21:05:30.272375  1906 server.go:545] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+
+2026-04-08 21:05:30.317 [info] [LS Main] LS started on port 35607
+2026-04-08 21:05:30.397 [error] [LS Main stderr] W0408 21:05:30.275539  1906 client.go:167] failed to set auth token
+I0408 21:05:30.386886  1906 server.go:1679] initialized server successfully in 1.690549851s
+
+2026-04-08 21:05:30.422 [error] [LS Main stderr] W0408 21:05:30.402615  1906 log_context.go:118] Cache(userInfo): Singleflight refresh failed: error getting token source: state syncing error: key not found
+

@@ -1,0 +1,5 @@
+2026-04-03 21:24:37.183 [error] #12: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2026-04-03 21:24:37.193 [error] #13: https://main.vscode-cdn.net/core/stable.json - error GET Failed to fetch
+2026-04-04 12:43:33.542 [error] #15: https://main.vscode-cdn.net/core/stable.json - error GET Fetch timeout: 20000ms
+2026-04-04 12:43:38.766 [error] #14: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2026-04-04 12:49:04.897 [error] #16: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch

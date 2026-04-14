@@ -1,0 +1,18 @@
+2026-04-05 17:48:13.856 [info] update#setState idle
+2026-04-05 17:48:43.902 [info] update#setState checking for updates
+2026-04-05 17:48:44.258 [info] update#setState idle
+2026-04-05 17:55:18.894 [info] Extension host with pid 6982 exited with code: 0, signal: unknown.
+2026-04-05 17:55:19.135 [error] ptyHost terminated unexpectedly with code 32512
+2026-04-05 17:55:19.169 [warning] [UtilityProcess type: ptyHost, pid: 7511]: unable to kill the process
+2026-04-05 17:55:19.508 [error] ptyHost terminated unexpectedly with code 32512
+2026-04-05 17:55:19.514 [warning] [UtilityProcess type: ptyHost, pid: 7512]: unable to kill the process
+2026-04-05 17:55:19.634 [error] ptyHost terminated unexpectedly with code 32512
+2026-04-05 17:55:19.642 [warning] [UtilityProcess type: ptyHost, pid: 7513]: unable to kill the process
+2026-04-05 17:55:19.953 [error] ptyHost terminated unexpectedly with code 32512
+2026-04-05 17:55:19.957 [warning] [UtilityProcess type: ptyHost, pid: 7514]: unable to kill the process
+2026-04-05 17:55:20.080 [error] ptyHost terminated unexpectedly with code 32512
+2026-04-05 17:55:20.082 [warning] [UtilityProcess type: ptyHost, pid: 7515]: unable to kill the process
+2026-04-05 17:55:20.368 [error] ptyHost terminated unexpectedly with code 32512
+2026-04-05 17:55:20.376 [warning] [UtilityProcess type: ptyHost, pid: 7516]: unable to kill the process
+2026-04-05 17:55:20.612 [error] ptyHost terminated unexpectedly with code 32512, giving up
+2026-04-05 17:55:20.613 [error] [UtilityProcess type: ptyHost, pid: 7517]: crashed with code 32512 and reason 'abnormal-exit'

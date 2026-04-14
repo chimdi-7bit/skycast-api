@@ -1,0 +1,76 @@
+2026-04-08 23:20:51.331 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.339 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.347 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.355 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.359 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.379 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.387 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.397 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.405 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.425 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.431 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.433 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.439 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.448 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.452 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-04-08 23:20:51.818 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 44ms.
+2026-04-08 23:20:51.898 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 31ms.
+2026-04-08 23:20:51.972 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 30ms.
+2026-04-08 23:20:52.056 [warning] Creation of workbench contribution 'workbench.contrib.localTerminalBackend' took 28ms.
+2026-04-08 23:20:52.107 [warning] Creation of workbench contribution 'antigravity.agentSidePanel' took 48ms.
+2026-04-08 23:21:02.844 [info] Started local extension host with pid 4275.
+2026-04-08 23:21:16.106 [warning] Creation of workbench contribution 'workbench.mcp.servers.views.contribution' took 115ms.
+2026-04-08 23:21:16.296 [error] Extension 'ms-python.python' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider
+product.json (WINS): contribEditorContentMenu, quickPickSortByLabel, portsAttributes, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, notebookReplDocument
+2026-04-08 23:21:16.306 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-04-08 23:21:17.079 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-08 23:21:17.105 [error] [vscode.git]: property `title` is mandatory and must be of type `string` or `object`
+2026-04-08 23:21:17.209 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravitySettings` which is not defined in the 'commands' section.
+2026-04-08 23:21:17.232 [error] [google.antigravity]: Menu item references a command `antigravity.importAntigravityExtensions` which is not defined in the 'commands' section.
+2026-04-08 23:21:17.242 [error] [google.antigravity]: Menu item references a command `antigravity.prioritized.chat.open` which is not defined in the 'commands' section.
+2026-04-08 23:21:34.594 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 216ms.
+2026-04-08 23:21:37.757 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 330ms.
+2026-04-08 23:21:37.910 [warning] Creation of workbench contribution 'workbench.contrib.dynamicWindowConfiguration' took 155ms.
+2026-04-08 23:21:38.388 [info] Extension host (LocalProcess pid: 4275) is unresponsive.
+2026-04-08 23:21:38.629 [warning] Creation of workbench contribution 'chat.builtinTools' took 107ms.
+2026-04-08 23:21:42.727 [info] Extension host (LocalProcess pid: 4275) is responsive.
+2026-04-08 23:44:37.191 [error] [createInstance] Hre depends on UNKNOWN service agentSessions.: Error: [createInstance] Hre depends on UNKNOWN service agentSessions.
+    at Sss.y (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:4186)
+    at Sss.o (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1360)
+    at Sss.createInstance (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1207)
+    at new Jqt (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6597:8181)
+    at new EVn (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6597:15815)
+    at Sss.o (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1710)
+    at Sss.createInstance (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1207)
+    at new zqt (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:6597:18528)
+    at Sss.o (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1710)
+    at Sss.createInstance (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5928:1207)
+2026-04-08 23:44:46.533 [error] command 'antigravity.isFileGitIgnored' not found: Error: command 'antigravity.isFileGitIgnored' not found
+    at c$t.n (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5805:5761)
+    at c$t.executeCommand (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5805:5693)
+    at async rWt.shouldShowInUri (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5003:11998)
+    at async vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5003:11181
+2026-04-08 23:48:55.912 [error] command 'antigravity.isFileGitIgnored' not found: Error: command 'antigravity.isFileGitIgnored' not found
+    at c$t.n (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5805:5761)
+    at c$t.executeCommand (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5805:5693)
+    at async rWt.shouldShowInUri (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5003:11998)
+    at async p9t.value (vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:4960:32750)
+2026-04-08 23:49:14.371 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/antigravity/resources/app/out/vs/workbench/workbench.desktop.main.js:5076:14449
+2026-04-09 02:22:55.175 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-09 02:28:21.312 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-09 02:33:47.464 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-09 02:39:13.587 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-09 02:44:39.704 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-10 02:03:29.327 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-10 02:08:55.491 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-10 02:14:21.630 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-10 02:19:47.767 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-10 02:25:13.939 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-10 02:30:40.107 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-10 02:36:06.241 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-10 02:41:32.366 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-10 02:46:58.500 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-10 02:52:24.617 [warning] Failed to fetch chat participant registry Failed to fetch
+2026-04-10 02:57:50.835 [warning] Failed to fetch chat participant registry Failed to fetch

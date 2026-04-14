@@ -1,0 +1,155 @@
+starting generic LSP server
+ INFO Reading messages
+ INFO File /home/chimdi/music-agent/main.py opened, prepare to validate open files.
+ INFO Ran task on sourcedb_queue heavy task queue. Queue time: 0.01, task time: 0.00
+ INFO Unhandled notification: Notification { method: "$/setTrace", params: Object {"value": String("off")}, activity_key: None }
+ INFO Unhandled notification: Notification { method: "$/setTrace", params: Object {"value": String("off")}, activity_key: None }
+ INFO Published 2 diagnostics for file:///home/chimdi/music-agent/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `DidOpenTextDocument` in 6.12s (0.01s waiting)
+ INFO We should cancel request RequestId(I32(5))
+ INFO Language server processed event `CancelRequest` in 0.00s (4.43s waiting)
+ INFO We should cancel request RequestId(I32(2))
+ INFO Language server processed event `CancelRequest` in 0.00s (4.43s waiting)
+ INFO We should cancel request RequestId(I32(3))
+ INFO Language server processed event `CancelRequest` in 0.00s (4.42s waiting)
+ INFO We should cancel request RequestId(I32(6))
+ INFO Language server processed event `CancelRequest` in 0.00s (4.29s waiting)
+ INFO Request pyrefly/textDocument/typeErrorDisplayStatus (1) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (6.13s waiting)
+ INFO Request textDocument/documentSymbol (2) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (6.08s waiting)
+ INFO Request textDocument/codeAction (3) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (6.07s waiting)
+ INFO Request textDocument/inlayHint (4) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/inlayHint)` in 0.00s (6.07s waiting)
+ INFO Request textDocument/documentSymbol (5) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (6.07s waiting)
+ INFO Request textDocument/foldingRange (6) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (6.07s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (6.04s waiting)
+ERROR Failed to query interpreter at python, falling back to default Python environment settings
+No such file or directory (os error 2)
+ INFO Client configuration applied to workspace: None
+ INFO Language server processed event `LspResponse` in 0.00s (5.97s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/range (7)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/range)` in 0.00s (5.77s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (8)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 3.43s (5.66s waiting)
+ INFO We should cancel request RequestId(I32(10))
+ INFO Language server processed event `CancelRequest` in 0.00s (2.82s waiting)
+ INFO Request textDocument/documentSymbol (9) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (7.87s waiting)
+ INFO Request textDocument/codeAction (10) is canceled due to explicit cancellation
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (7.87s waiting)
+ INFO Request pyrefly/textDocument/typeErrorDisplayStatus (11) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (7.42s waiting)
+ INFO Request pyrefly/textDocument/typeErrorDisplayStatus (12) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (7.41s waiting)
+ INFO Request pyrefly/textDocument/typeErrorDisplayStatus (13) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(pyrefly/textDocument/typeErrorDisplayStatus)` in 0.00s (7.04s waiting)
+ INFO Request textDocument/foldingRange (14) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.00s (6.85s waiting)
+ INFO Request textDocument/documentSymbol (15) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/documentSymbol)` in 0.00s (6.71s waiting)
+ INFO Request textDocument/codeLens (16) is canceled due to subsequent mutation
+ INFO Language server processed event `LspRequest(textDocument/codeLens)` in 0.00s (6.22s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (3.30s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (3.27s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (17)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (2.83s waiting)
+ INFO Handling non-canceled request textDocument/foldingRange (18)
+ INFO Language server processed event `LspRequest(textDocument/foldingRange)` in 0.04s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (19)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.00s (0.00s waiting)
+ INFO Invalidated config, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 7.21
+ INFO Cleared 2 dropped configs from config cache
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 7.22, task time: 0.01
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 7.22, task time: 0.00
+ INFO Published 2 diagnostics for file:///home/chimdi/music-agent/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.09s (0.01s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (20)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.01s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (21)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.01s (0.00s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 95 file(s) changed (95 created, 0 modified, 0 removed, 0 unknown)
+ INFO [Pyrefly] Re-registering file watchers
+ INFO Cleared 2 dropped configs from config cache
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.41s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.02s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 426 file(s) changed (426 created, 0 modified, 0 removed, 0 unknown)
+ INFO [Pyrefly] Re-registering file watchers
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.34s (0.01s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 33 file(s) changed (33 created, 0 modified, 0 removed, 0 unknown)
+ INFO [Pyrefly] Re-registering file watchers
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.02s (0.10s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.03s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 2 file(s) changed (2 created, 0 modified, 0 removed, 0 unknown)
+ INFO [Pyrefly] Re-registering file watchers
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.01s waiting)
+ INFO [Pyrefly] DidChangeWatchedFiles: 8 file(s) changed (8 created, 0 modified, 0 removed, 0 unknown)
+ INFO [Pyrefly] Re-registering file watchers
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 0.00, task time: 30.68
+ INFO Skip publishDiagnostics, all open files are currently being rechecked
+ INFO Validated open files and saved non-committable transaction.
+ INFO Language server processed event `RecheckFinished` in 0.18s (0.00s waiting)
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 27.71, task time: 7.00
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 34.67, task time: 0.00
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 34.36, task time: 0.00
+ INFO Skip publishDiagnostics, all open files are currently being rechecked
+ INFO Validated open files and saved non-committable transaction.
+ INFO Language server processed event `RecheckFinished` in 0.00s (0.00s waiting)
+ INFO Published 2 diagnostics for file:///home/chimdi/music-agent/main.py
+ INFO Invalidated state, prepare to recheck open files.
+ INFO Ran task on recheck_queue heavy task queue. Queue time: 27.47, task time: 0.01
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.01s (0.01s waiting)
+ INFO Published 2 diagnostics for file:///home/chimdi/music-agent/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.00s (0.01s waiting)
+ INFO Published 2 diagnostics for file:///home/chimdi/music-agent/main.py
+ INFO Validated open files and committed transaction.
+ INFO Language server processed event `RecheckFinished` in 0.00s (0.01s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Language server processed event `LspResponse` in 0.00s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/semanticTokens/full (22)
+ INFO Language server processed event `LspRequest(textDocument/semanticTokens/full)` in 0.01s (0.00s waiting)
+ INFO Handling non-canceled request textDocument/codeAction (23)
+ INFO Language server processed event `LspRequest(textDocument/codeAction)` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.07s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.09s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.03s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.03s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
+ INFO Language server processed event `DidChangeWatchedFiles` in 0.00s (0.00s waiting)
