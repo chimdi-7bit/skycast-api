@@ -3,6 +3,51 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 
+# 1. Load configuration
+load_dotenv()
+
+# 2. Initialize the app (This MUST stay here at the top)
+app = FastAPI()
+
+# 3. Security settings
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# 4. Your Routes
+@app.get("/")
+def home():
+    return {"message": "SkyCast Pro API is active!"}
+
+@app.get("/weather/{city}")
+def get_weather(city: str):
+    return {
+        "city": city, 
+        "temp": "28°C", 
+        "condition": "Partly Cloudy",
+        "location": f"{city.capitalize()}, Nigeria"
+    }
+
+@app.get("/forecast")
+def get_forecast(city: str = "Lagos"):
+    return {"city": city, "forecast": "Sunny intervals expected over the next 24 hours."}
+
+@app.get("/news")
+def get_news():
+    return {"articles": [{"title": "Meteorology Update", "content": "Analyzing local humidity patterns in Lagos."}]}
+
+@app.get("/exchange-rate")
+def get_exchange_rate(base: str = "NGN"):
+    return {"base": base, "rates": {"USD": 0.00065}}
+import os
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from dotenv import load_dotenv
+
 load_dotenv()
 
 app = FastAPI()
